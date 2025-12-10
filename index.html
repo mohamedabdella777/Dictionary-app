@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dictionary app</title>
+    <title>English Dictionary app</title>
 
     <!--font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
@@ -16,9 +16,8 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   
-  
+  <div class="header"><h2>English Dictionary app</h2></div>
   <div class="container">
 
     <div class="serch-box">
@@ -30,21 +29,33 @@
     </div>
 
     <div class="result">
-     <div class="word">
-       <h3>test</h3>
-       <button><i class="fa-solid fa-volume-high"></i></button>
+    <div class="word">
+    <h3 id="meaning"></h3>
+    <button><i class="fa-solid fa-volume-high"></i></button>
       </div>
+
       <div class="ditails">
-        <p>pos</p>
-        <p>/sample/</p>
+        <p id="pos1"></p>
+        <p id="sample1"></p>
       </div>
-      <p class="word-meanin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, commodi.</p>
-       <p class="wold-example">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, enim! </p>
+      
+      <div class="ditails">
+        <p id="pos2"></p>
+        <p id="sample2"></p>
+      </div>
+
+    <div class="ditails">
+        <p id="pos3"></p>
+        <p id="sample3"></p>
+      </div>
+
+      <h3 class="definitions">definitions</h3>
+      <p class="word-meanin1"></p>
+      <p class="word-meanin2"></p>
+      <p class="word-meanin3"></p>
     </div>
 
   </div>
-
-  
 
     <script src="script.js"></script>
 </body>
